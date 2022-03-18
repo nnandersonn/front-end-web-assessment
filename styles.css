@@ -82,3 +82,7 @@ img {
 .restaurant-button{
 	width: 200;
 }
+
+.radio-buttons{
+	display: flex;
+}
