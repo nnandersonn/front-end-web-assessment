@@ -1,0 +1,84 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+nav {
+	border-bottom: 2px solid orange;
+	
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.interests{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	width: 60vw;
+}
+
+.suggestions{
+	flex-direction: column;
+	box-sizing: border-box;
+	justify-content: center;
+
+	width: 50%;
+}
+
+.dancing{
+	padding: 10px;
+	border: solid orange;
+}
+
+.vote-for-pedro{
+	padding: 10px;
+	border: solid orange;
+}
+
+.prom{
+	padding: 10px;
+	border: solid orange;
+}
+
+
+.favorite-button{
+	width: 150;
+	height: 40;
+	background-color: yellow;
+}
+
+.restaurant-button{
+	width: 200;
+}
